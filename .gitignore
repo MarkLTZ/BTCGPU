@@ -5,7 +5,7 @@ src/bitcoin
 src/bgoldd
 src/bgold-cli
 src/bgold-tx
-src/test/test_bitcoin
+src/test/test_bgold
 src/test/test_bgold_fuzzy
 src/qt/test/test_bgold-qt
 
@@ -102,7 +102,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_bgold.coverage/
 total.coverage/
 coverage_percent.txt
 
