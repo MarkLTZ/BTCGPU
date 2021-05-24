@@ -14,7 +14,7 @@ To add more bgoldd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the bgold-qt tests manually, launch `src/qt/test/test_bitcoin-qt`
+To run the bgold-qt tests manually, launch `src/qt/test/test_bgold-qt`
 
 To add more bgold-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.
