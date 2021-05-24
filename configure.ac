@@ -17,7 +17,7 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 BITCOIN_DAEMON_NAME=bgoldd
 BITCOIN_GUI_NAME=bitcoin-qt
 BITCOIN_CLI_NAME=bgold-cli
-BITCOIN_TX_NAME=bitcoin-tx
+BITCOIN_TX_NAME=bgold-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
@@ -395,7 +395,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build bitcoin-cli bitcoin-tx (default=yes)])],
+  [build bitcoin-cli bgold-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -1194,7 +1194,7 @@ AC_MSG_CHECKING([whether to build bitcoind])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (bitcoin-cli bitcoin-tx)])
+AC_MSG_CHECKING([whether to build utils (bitcoin-cli bgold-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 

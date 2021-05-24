@@ -9,5 +9,5 @@ if ENABLE_QT
 endif
 
 if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=bgold-cli.1 bitcoin-tx.1
+  dist_man1_MANS+=bgold-cli.1 bgold-tx.1
 endif
