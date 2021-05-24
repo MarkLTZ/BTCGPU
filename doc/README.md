@@ -16,12 +16,12 @@ The following are some helpful notes on how to run BTG Core on your native platf
 
 Unpack the files into a directory and run:
 
-- `bin/bitcoin-qt` (GUI) or
+- `bin/bgold-qt` (GUI) or
 - `bin/bgoldd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run bitcoin-qt.exe.
+Unpack the files into a directory, and then run bgold-qt.exe.
 
 ### macOS
 

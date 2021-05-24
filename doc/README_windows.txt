@@ -11,7 +11,7 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run bitcoin-qt.exe.
+Unpack the files into a directory and run bgold-qt.exe.
 
 BTG Core (aka Bitcoin Gold Core, BTCGPU) is the original BTG client and it builds the 
 backbone of the network. It is based on Bitcoin Core. It downloads and, by default, 
