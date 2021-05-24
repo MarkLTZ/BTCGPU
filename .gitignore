@@ -6,7 +6,7 @@ src/bgoldd
 src/bgold-cli
 src/bgold-tx
 src/test/test_bitcoin
-src/test/test_bitcoin_fuzzy
+src/test/test_bgold_fuzzy
 src/qt/test/test_bgold-qt
 
 # autoreconf
