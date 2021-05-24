@@ -7,7 +7,7 @@ src/bgold-cli
 src/bgold-tx
 src/test/test_bitcoin
 src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/qt/test/test_bgold-qt
 
 # autoreconf
 Makefile.in
@@ -80,13 +80,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+bgold-qt
+Bgold-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+bgold-qt_test
 
 # Resources cpp
 qrc_*.cpp
